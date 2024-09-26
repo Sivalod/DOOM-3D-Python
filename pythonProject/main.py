@@ -17,7 +17,9 @@ while True:
 
     pygame.draw.circle(sc, green, player.pos, 12)
     pygame.draw.line(sc, red, player.pos, (player.x + width * math.cos(player.angle),
-                                                   player.y + height * math.sin(player.angle)))
+                                           player.y + height * math.sin(player.angle)))
 
     pygame.display.flip()
     clock.tick(FPS)
+
+# dfdsarfdef
