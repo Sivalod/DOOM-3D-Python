@@ -10,6 +10,10 @@ FPS = 60
 tile = 100
 FPS_pos = (width - 65, 0)
 
+# texture settings
+texture_width = 1200
+texture_height = 1200
+texture_scale = texture_width // tile
 
 # minimap settings
 map_scale = 5
@@ -23,7 +27,7 @@ num_rays = 600
 max_depth = 800
 delta_angle = FOV / num_rays
 dist = num_rays / (2 * math.tan(half_FOV))
-proj_coeff = dist * tile / 1.5
+proj_coeff = dist * tile
 scale = width // num_rays
 
 
